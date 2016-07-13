@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+.input_text{
+	height:28px;
+	width:180px;
+	font-family:微软雅黑;
+	color:#fff;	
+	background:inherit;
+	border-color:#738ffe;
+	border-radius:6px;
+}
+
+.button{
+	height:28px;
+	width:87px;
+	font-family:黑体;
+	font-size:18px;
+	color:#738ffe;
+	cursor:pointer;
+	border:0px;
+	border-color:#738ffe;
+	border-radius:6px;
+	background:inherit;
+}
+.button:link {
+	height: 28px;
+	width: 87px;
+	font-family: 黑体;
+	font-size: 18px;
+	color: #738ffe;
+	cursor:pointer;
+	border:0px;
+	border-color:#738ffe;
+	border-radius:6px;
+	background:inherit;
+}
+.button:hover {
+	height:28px;
+	width:87px;
+	font-family:黑体;
+	font-size:18px;
+	color:#738ffe;
+	cursor:pointer;
+	border: #738ffe solid 2px;
+	border-color:#738ffe;
+	border-radius:6px;
+	background:inherit;
+}
+

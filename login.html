@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<!-- Based on Tony Pinkevich's design: https://dribbble.com/shots/2103470-Black-Cat-gif -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="cat.css" rel="stylesheet">
+<link href="input.css" rel="stylesheet">
+<title>管理员登陆</title>
+</head>
+
+<body>
+<div class="cat">
+	<div class="ear ear--left"></div>
+	<div class="ear ear--right"></div>
+	<div class="face">
+		<div class="eye eye--left">
+			<div class="eye-pupil"></div>
+		</div>
+		<div class="eye eye--right">
+			<div class="eye-pupil"></div>
+		</div>
+		<div class="muzzle"></div>
+	</div>
+</div>
+<article>
+  <form method="put" id="login" >
+    <table style="position:absolute;left:590px;top:250px">
+      <tr height="60">
+        <td><input id="account" type="text" class="input_text" value="账号" /></td>
+      </tr>
+      <tr height="60">
+        <td><input id="pwd" type="password" class="input_text" value="密码"/></td>
+      </tr>
+      <tr height="60">
+        <td><input id="login" type="submit" class="button" value="登陆"/>
+            <input id="sign" type="button" class="button" value="注册" onmouseout="out(this)"
+					onmouseover="over(this)"/>
+        </td>
+      </tr>
+    </table>
+  </form>
+</article>
+</body>
+</html>
